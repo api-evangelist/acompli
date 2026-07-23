@@ -1,7 +1,24 @@
 aid: acompli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acompli.png
 name: Acompli
-description: Acompli is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Acompli was a mobile email application for iOS and Android, first released in April 2014, that
+  unified email, calendar, contacts, and file management across Microsoft Exchange, Office 365, Google Apps,
+  Gmail, iCloud, Yahoo, and Outlook.com/Hotmail accounts. The San Francisco startup was backed by Redpoint
+  Ventures and acquired by Microsoft on December 1, 2014 for a reported $200M+, after which its 21-person
+  team and product were rebranded as Microsoft Outlook for iOS and Android. Acompli no longer operates as an
+  independent company and never published a public developer API; this profile is retained in the API
+  Evangelist network as a historical, acquired-company lead.
 url: https://raw.githubusercontent.com/api-evangelist/acompli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,21 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: microsoft
+x-acquired-date: '2014-12-01'
+x-successor: Microsoft Outlook for iOS and Android
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Email
+- Mobile
+- Productivity
+- Calendar
+- Acquired
+- Microsoft
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.acompli.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
